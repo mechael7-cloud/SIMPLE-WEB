@@ -1,0 +1,66 @@
+.out {
+    width: 100%;
+    height: 350px;
+}
+.out h1 {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+.out hr {
+    width: 10%;
+    position: relative;
+    left: 570px;
+    border-bottom: 3px solid;
+}
+.bout {
+    margin: 0px 100px;
+}
+.card {
+    width: 99%;
+    height: 600px;
+}
+.card img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.cardt {
+    display: flex;
+    width: 100%;
+    margin: 100px 0px;
+}
+.cardt p {
+    font-size: 20px;
+}
+.sp {
+    display: inline;
+    font-weight: bold;
+    color: black;
+}
+.bout2 {
+    display: block;
+    width: 50%;
+}
+.bout2 p {
+    margin-top: 10px;
+    color: #797777;
+}
+.bout3 {
+    margin-left: 100px;
+}
+.bout3 h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.bout3 p {
+    margin-top: 5px;
+}
+.bout3 .sp1 {
+    font-size: 23px;
+    font-weight: bold;
+}
+.bout3 .sp2 {
+    margin-left: 20px;
+    color: #797777;
+}

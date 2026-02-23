@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #ececec;
+}
+nav h2  {
+    margin: 25px 20px;
+}
+nav h2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navigision {
+    margin: 25px 850px;
+    display: flex;
+}
+.navigision a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+.home1 {
+    width: 100%;
+    color:  white;
+}
+.home1 img {
+    width: 100%;
+    height: 800px;
+    filter: brightness(50%);
+}
+.txth1 {
+    width: 100%;
+    height: 800px;  
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+.subtext {
+    display: block;
+}
+.teks1 {
+    font-weight: 900;
+    font-size: 100px;
+}
+.home1 p {
+    font-size: 20px;
+    color: white;
+}
+.home1 a {
+    position: relative;
+    padding: 30px 70px;
+    background-color: white;
+    color: black;
+    top: 150px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.home1 a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.home2 {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    height: 500px;
+}
+.home2 img {
+    width: 400px;
+    height: 500px;
+    margin-left: 260px;
+}
+.tkhm2 {
+    display: block;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.home2 h2 {
+    font-weight: 900;
+    font-size: 70px;
+}
+.home2 p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 200;
+    color: #b8afaf;
+}
+.home2 a {
+    display: inline-block;
+    margin-top: 20px;
+    margin:50px 10px;
+    color: black;
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.home3 {
+    width: 100%;
+    background: black;
+    height: 520px;
+    color: white;
+    margin-top: 100px;
+}
+.isi {
+     width: 95%;
+}
+.head {
+    margin: 0px 50px;
+    padding: 80px 50px 0px 0px;
+   
+    display: flex;
+}
+.head h2 {
+   font-size: 50px;
+
+}
+.view {
+    left: 700px;
+    top: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+hr {
+    width: 97%;
+    margin-left: 40px;
+}
+.body1 {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.box {
+    width: 20%;
+    margin-left: 50px;
+}
+.box a {
+    text-decoration: none;
+    color: white;
+}
+.box p {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #ccc;
+}
+.time {
+    color :#ccc;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.home4 {
+    width: 100%;
+    display: flex;
+    height: 210px;
+    background-color: black;
+    
+}
+.top1 {
+    display: block;
+    margin-left: 20px;
+}
+.top1 h3 {
+    font-size: 30px;
+    line-height: 200px;
+}
+.top1 p {
+    font-size: 15px;
+    color: #b8afaf;
+    position: relative;
+    bottom: 80px;
+}
+.top2 {
+    display: flex;
+    margin-left: 330px;
+    line-height: 200px;
+}
+.home4 i {
+    margin: 0px 10px;
+    font-size: 30px;
+    line-height: 200px;
+}
+.top2 p {
+    margin-left: 280px;
+    font-size: 12px;
+    color: #c0c0c0;
+    line-height: 200px;
+}
+.home4 h3 {
+    color: white;
+}
+.home4 a {
+    color: white
+}
