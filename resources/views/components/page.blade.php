@@ -12,9 +12,10 @@
 <body>
     <nav>
         <h2><a href="">MONOCHROME.</a></h2>
-        <div class="navigision"><a href="/home">HOME</a>
-        <a href="/about">ABOUT</a>
-        <a href="/blog">BLOG</a>
+        <div class="navigision">
+        <a href="/home" class="home">HOME</a>
+        <a href="/about" class="about">ABOUT</a>
+        <a href="/blog" class="blogx">BLOG</a>
         </div>
     </nav>
 
