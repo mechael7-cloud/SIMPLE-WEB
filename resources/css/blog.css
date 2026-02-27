@@ -96,3 +96,22 @@
     background-color: #000;
     color: white;
 }
+
+/* Animasi card */
+.log1 {
+    animation: cards2 2s ease both;
+}
+.journal {
+    animation: cards2 2s ease both;
+}
+
+@keyframes cards2 {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
