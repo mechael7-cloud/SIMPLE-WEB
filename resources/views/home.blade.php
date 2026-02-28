@@ -16,7 +16,7 @@
         <div class="tkhm2">
             <h2><span class="subtext">CURATED</span>
                 PERSPECTIVES</h2>
-            <p>We believe that less is more. Our curated <span class="subtext"> collection of articles,interviews, and visual essays </span> explore the intersection of minimalism and modern life.</p>
+            <p>We believe that less is more. Our curated  collection of articles,interviews, and visual essays explore the intersection of minimalism and modern life.</p>
             <a href="">OUR PHILOSOPHY</a>
         </div>
             <div class="gam1">

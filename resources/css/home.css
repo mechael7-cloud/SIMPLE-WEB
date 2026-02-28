@@ -1,3 +1,98 @@
+
+/* WEB UNTUK HP/TABLET */
+
+@media only screen and (max-width:768px) {
+    nav {
+        width: 100%;
+        height: 70px;
+        background-color: #ececec;
+        position: sticky;
+        top: 0%;
+        z-index: 1000;
+    }
+    nav h2 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 70px;
+        margin-left: 20px;
+    }
+    .navigision a {
+        opacity: 0;
+     }
+    .home1 {
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+    .home1 img {
+        width: 100%;
+        height: 100%;
+        filter: brightness(50%);
+    }
+    .txth1 {
+        position: absolute;
+        top: 110px;
+        text-align: center;
+        color: #fff;
+    }
+    .teks1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .subtext {
+        display: block;
+    }
+    .txth1 p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .txth1 a {
+        position: relative;
+        top: 40px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: #fff;
+        color: black;
+    }
+    .txth1 a:hover {
+        background-color: black;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+
+
+    .home2 {
+        margin: 50px 20px 0px 20px;
+        display: flex;
+    }
+    .tkhm2 {
+        width: 100%;
+    }
+    .tkhm2 h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .tkhm2 {
+        padding: 0px 20px 0px 0px;
+    }
+    .tkhm2 a {
+        font-size: 20px;
+        border-bottom: 2px solid black;
+        position: relative;
+        top: 20px;
+        font-weight: bold;
+    }
+    .home3 {
+        width: 100%;
+        margin: 0px 10px 0px 10px;
+
+    }
+}
+
+@media only screen and (min-width:992px) {
 * {
     margin: 0;
     padding: 0;
@@ -115,16 +210,17 @@ nav .navigision a:hover::after {
     margin-top: 100px;
     height: 500px;
 }
-.home2 .gam1 {
+.home2 .gam1 img {
     width: 400px;
     height: 500px;
-    margin-left: 260px;
+    margin: 0px 0px 0px 200px; 
 }
 .gam1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: 0.4s ease;
+    animation: hm1 ease 2s infinite;
 }
 .gam1:hover {
     transform: scale(1.1);
@@ -277,9 +373,6 @@ hr {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-.gam1 {
-    animation: hm1 2s ease-in infinite;
-}
 .home3 {
     animation: hm ease;
     animation-timeline: view();
@@ -315,4 +408,5 @@ hr {
     100% {
         transform: translate(0px);
     }
+}
 }
