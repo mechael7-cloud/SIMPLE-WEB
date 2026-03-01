@@ -61,7 +61,12 @@
         color: #fff;
         border: 1px solid #fff;
     }
-
+    .home3 .isi {
+        color: #fff;
+    }
+    .isi .head {
+        display: flex;
+    }
 
 
     .home2 {
@@ -88,7 +93,7 @@
     .home3 {
         width: 100%;
         margin: 0px 10px 0px 10px;
-
+        background-color: black;
     }
 }
 
