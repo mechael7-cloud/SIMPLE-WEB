@@ -15,6 +15,10 @@
         <a href="/about" class="about">ABOUT</a>
         <a href="/blog" class="blogx">BLOG</a>
         </div>
+        <div class="tom">
+            <i class="fas fa-bars"></i>
+            <input type="checkbox" id="toggel">
+        </div>
     </nav>
 
     {{$slot}}
@@ -34,7 +38,5 @@
         <p>© 2026 Monochrome Inc. All rights reserved.</p>
     </div>
     </div>
-    
-    
 </body>
 </html>

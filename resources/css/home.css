@@ -9,6 +9,7 @@
         position: sticky;
         top: 0%;
         z-index: 1000;
+        display: flex;
     }
     nav h2 {
         font-size: 20px;
@@ -16,8 +17,20 @@
         line-height: 70px;
         margin-left: 20px;
     }
-    .navigision a {
+    .tom {
+        margin-left: 280px;
+        line-height: 70px;
+        position: relative;
+    }
+    .tom input {
         opacity: 0;
+        position: absolute;
+        left: 1px;
+        top: 25px;
+    }
+    .navigision a {
+        opicity: 0; 
+        display: none;
      }
     .home1 {
         position: relative;
@@ -67,21 +80,20 @@
     .isi .head {
         display: flex;
     }
-
-
     .home2 {
         margin: 50px 20px 0px 20px;
         display: flex;
     }
     .tkhm2 {
         width: 100%;
+        padding: 0px 20px 0px 0px;
     }
     .tkhm2 h2 {
         font-size: 30px;
         font-weight: bold;
     }
-    .tkhm2 {
-        padding: 0px 20px 0px 0px;
+    .tkhm2 .gam1 {
+        animation: hm1 ease 2s infinite;
     }
     .tkhm2 a {
         font-size: 20px;
@@ -92,8 +104,116 @@
     }
     .home3 {
         width: 100%;
-        margin: 0px 10px 0px 10px;
+        margin: 30px 0px 0px 0px;
         background-color: black;
+    }
+    .isi {
+        width: 100%;
+        padding: 30px;
+    }
+    .head {
+        margin-bottom: 20px;
+    }
+    .head h2 {
+        font-size: 20px;
+        color: white;
+        
+    }
+    .view {
+        font-size: 20px;
+        color: white;
+        margin-left: 170px;
+    }
+    .body1 {
+        margin-top: 50px;
+        width: 100%; 
+    }
+    .box {
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+    .time {
+        font-size: 10px;
+    }
+    .box h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }    
+    .box h3:hover {
+        text-decoration: underline;
+        color: #ccc;
+    }
+    .box p {
+        font-size: 15px;
+    }
+    .home4 {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        color: white;
+    }
+    .top1 h3 {
+        font-weight: bold;
+    }
+    .top1 p {
+        font-size:12px;
+    } 
+    .top2 a {
+        margin-left: 50px;
+    }
+    .top2 p {
+        font-size: 10px;
+        margin-left: 135px;
+        margin-bottom: 30px;
+    }
+
+    .txth1 {
+        animation: jurnal 2s ease both;
+    }
+    .body1 {
+        animation: jurnal 3s ease both;
+    }
+    .home2 {
+        animation: hm ease;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    .home3 {
+        animation: hm ease;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    @keyframes jurnal {
+        0% {
+            transform: translateY(200px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes hm {
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes hm1 {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(5px);
+        }
+        100% {
+            transform: translate(0px);
+        }
     }
 }
 
@@ -162,6 +282,9 @@ nav .navigision a::after {
 }
 nav .navigision a:hover::after {
     width: 100%;
+}
+.tom {
+    display: none;
 }
 .home1 {
     width: 100%;
