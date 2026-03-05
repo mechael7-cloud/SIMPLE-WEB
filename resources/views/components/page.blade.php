@@ -8,6 +8,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="hidden" id="hidd"></div>
     <nav>
         <h2><a href="">MONOCHROME.</a></h2>
         <div class="navigision">
@@ -17,9 +18,13 @@
         </div>
         <div class="tom">
             <i class="fas fa-bars"></i>
-            <input type="checkbox" id="toggel">
         </div>
     </nav>
+    <div class="control">
+        <a href="/home" class="home">HOME</a>
+        <a href="/about" class="about">ABOUT</a>
+        <a href="/blog" class="blogx">BLOG</a>
+        </div>
 
     {{$slot}}
 
