@@ -16,7 +16,7 @@
             </form>
             <p class="p">12 Febuari 2026</p>
             <a href=""><h2>Judul blog</h2></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia voluptates quia exercitationem!</p>
+            <p id="tktk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia voluptates quia exercitationem!</p>
             <a href="/read" class="read">READ MORE</a>
         </div>
         <div class="log1">
@@ -29,7 +29,7 @@
             </form>
             <p class="p">12 Febuari 2026</p>
             <a href=""><h2>Judul blog</h2></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia voluptates quia exercitationem!</p>
+            <p id="tktk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia voluptates quia exercitationem!</p>
             <a href="" class="read">READ MORE</a>
             </a>
         </div>

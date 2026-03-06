@@ -2,17 +2,6 @@
 /* WEB UNTUK HP/TABLET */
 
 @media only screen and (max-width:768px) {
-
-    
-    body {
-    width: 100%;
-    height: 100%
-    }
- 
-
-
-
-
     nav {
         width: 100%;
         height: 70px;
@@ -41,8 +30,41 @@
     .navigision a {
         display: none;
         opacity: 0;
-
-     }
+    }
+    .control {
+        display: none;
+    }
+    #menu-nav {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    #menu-nav a{
+        display: block;
+        text-align: center;
+        margin: 90px 0px;
+        font-size: 50px;
+        position: relative;
+        text-decoration: none;
+        color: #9a9a9a;
+        font-weight: 400;
+    }
+    #menu-nav a::after {
+        content: "";
+        position: absolute;
+        left: 150px;
+        bottom: -1px;
+        width: 0;
+        height: 2px;
+        background-color: black;
+        transition: width 0.3s ease-in-out;
+    }
+    #menu-nav a:hover {
+        color: black;
+    }
+    #menu-nav a:hover::after {
+        width: 40%;
+    }
     .home1 {
         position: relative;
         width: 100%;
@@ -226,10 +248,6 @@
             transform: translate(0px);
         }
     }
-
-
-
-
 }
 
 @media only screen and (min-width:992px) {
@@ -299,6 +317,9 @@ nav .navigision a:hover::after {
     width: 100%;
 }
 .tom {
+    display: none;
+}
+.control {
     display: none;
 }
 .home1 {
@@ -553,5 +574,3 @@ hr {
     }
 }
 }
-
-

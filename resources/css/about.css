@@ -1,3 +1,129 @@
+@media only screen and (max-width:768px) {
+
+    .out {
+        width: 100%;
+        height: 150px;
+        justify-items: center;
+        line-height: 130px;
+        position: relative;
+    }
+    
+    .out h1 {
+        text-align: center;
+        font-size: 50px; 
+    }
+    .out hr {
+        margin-top: -30px;
+        width: 45%;
+        border-bottom: 2px solid;
+    } 
+    .bout {
+        width: 100%;
+        
+    }
+    .bout .card {
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+    .card img {
+        margin-left: 100px;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .cardt {
+        width: 98%;
+        margin: 50px 10px;
+    }
+    .sp {
+        font-weight: bold;
+    }
+    .bout3 {
+        margin-top: 20px;
+    }
+    .bout3 h3 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .sp1 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .sp2 {
+        margin-left: 10px;
+    }
+
+    /* ANIMASI  */
+
+.out {
+    animation: abouti 2s ease both;
+}   
+.card {
+    animation: abouti 2s ease both;
+}
+
+.bout2 {
+    animation: boutek1 3s ease both;
+}
+.bout3 {
+    animation: boutek2 3s ease both;
+}
+.cardt {
+    animation: hm ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes abouti {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes boutek1 {
+    0% {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes boutek2 {
+    0% {
+        transform: translateX(150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:992px) {
+
+
+
+
+
+
 .out {
     width: 100%;
     height: 350px;
@@ -114,4 +240,5 @@
         transform: translateX(0px);
         opacity: 1;
     }
+}
 }
