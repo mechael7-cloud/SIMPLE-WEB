@@ -36,13 +36,13 @@
     }
     #menu-nav {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: white;
     }
     #menu-nav a{
         display: block;
         text-align: center;
-        margin: 90px 0px;
+        margin: 80px 0px;
         font-size: 50px;
         position: relative;
         text-decoration: none;
@@ -64,6 +64,12 @@
     }
     #menu-nav a:hover::after {
         width: 40%;
+    }
+    .seluruh {
+        display: block;
+    }
+    .seluruh.show {
+        display: none;
     }
     .home1 {
         position: relative;
@@ -185,22 +191,41 @@
         background-color: black;
         display: flex;
         color: white;
+        position: relative;
     }
+    
+    
     .top1 h3 {
         font-weight: bold;
+        font-size: 15px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
     }
     .top1 p {
-        font-size:12px;
+        font-size: 10px;
+        position: absolute;
+        top: 38px;
+        left: 10px;
     } 
     .top2 a {
-        margin-left: 50px;
+        position: absolute;
+        left: 220px;
+        top: 25px;
+    }
+    .top2 i {
+        font-size: 15px;
+        margin-left: 5px;
     }
     .top2 p {
         font-size: 10px;
-        margin-left: 135px;
-        margin-bottom: 30px;
+        position: absolute;
+        left: 360px;
+        top: 23px
     }
-
+    .home4s {
+        display: block;
+    }
     .txth1 {
         animation: jurnal 2s ease both;
     }
@@ -251,326 +276,309 @@
 }
 
 @media only screen and (min-width:992px) {
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-}
-nav {
-    display: flex;
-    width: 100%;
-    height: 80px;
-    background-color: #ececec;
-    position: sticky;
-    top: 0px;
-    z-index: 1000;
-}
-nav h2  {
-    margin: 25px 20px;
-}
-nav h2 a {
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    font-weight: bold;
-}
-.navigision {
-    margin: 25px 850px;
-    display: flex;
-}
-.navigision a {
-    margin-left: 30px;
-    text-decoration: none;
-    color: #9a9a9a;
-}
-nav .navigision .home {
-    color: black;
-    border-bottom: 1px solid;
-}
-nav .navigision .home:hover {
-    color: #9a9a9a;
-    border-bottom: 1px solid black;
-}
-nav .navigision .about:hover {
-    color: #9a9a9a;
-}
-nav .navigision .blogx:hover {
-    color: #9a9a9a;
-}
-nav .navigision a {
-    position: relative;
-    text-decoration: none;
-    color: #9a9a9a;
-    font-weight: 500;
-}
-nav .navigision a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 0%;
-    height: 2px;
-    background-color: black;
-    transition: width 0.3s ease-in-out;
-}
-nav .navigision a:hover::after {
-    width: 100%;
-}
-.tom {
-    display: none;
-}
-.control {
-    display: none;
-}
-.home1 {
-    width: 100%;
-    color:  white;
-}
-.home1 img {
-    width: 100%;
-    height: 600px;
-    filter: brightness(50%);
-}
-.txth1 {
-    width: 100%;
-    height: 800px;  
-    position: absolute;
-    top: 200px;
-    text-align: center;
-}
-.subtext {
-    display: block;
-}
-.teks1 {
-    font-weight: 900;
-    font-size: 80px;
-}
-.home1 p {
-    font-size: 17px;
-    color: white;
-    position: relative;
-}
-.home1 a {
-    position: relative;
-    padding: 20px 40px;
-    background-color: white;
-    color: black;
-    top: 110px;
-    text-decoration: none;
-    font-weight: 700;
-    border: 1px solid white;
-    border-radius: 10px;
-    position: relative;
-}
-.home1 a:hover {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-
-}
-.home2 {
-    width: 100%;
-    display: flex;
-    margin-top: 100px;
-    height: 500px;
-}
-.home2 .gam1 img {
-    width: 400px;
-    height: 500px;
-    margin: 0px 0px 0px 200px; 
-}
-.gam1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.4s ease;
-    animation: hm1 ease 2s infinite;
-}
-.gam1:hover {
-    transform: scale(1.1);
- }
-.tkhm2 {
-    display: block;
-    margin-left: 80px;
-    margin-top: 50px;
-}
-.home2 h2 {
-    font-weight: 900;
-    font-size: 70px;
-}
-.home2 p {
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: 200;
-    color: #b8afaf;
-}
-.home2 a {
-    display: inline-block;
-    margin-top: 20px;
-    margin:50px 10px;
-    color: black;
-    border-bottom: 3px solid black;
-    text-decoration: none;
-    font-weight: 700;
-}
-.home3 {
-    width: 100%;
-    background: black;
-    height: 550px;
-    color: white;
-    margin-top: 100px;
-}
-.isi {
-     width: 95%;
-}
-.head {
-    margin: 0px 50px;
-    padding: 80px 50px 0px 0px;
-   
-    display: flex;
-}
-.head h2 {
-   font-size: 50px;
-
-}
-.view {
-    left: 700px;
-    top: 20px;
-    position: relative;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-}
-hr {
-    width: 97%;
-    margin-left: 40px;
-}
-.body1 {
-    width: 100%;
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-around;
-}
-.box {
-    width: 20%;
-    margin-left: 50px;
-    background-color: black;
-}
-.gam2 {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transition: 0.8s ease;
-}
-.gam2:hover {
-    transform: scale(1.1);
-}
-.box a {
-    text-decoration: none;
-    color: white;
-}
-.box p {
-    margin-top: 5px;
-    font-size: 13px;
-    color: #ccc;
-}
-.time {
-    color :#ccc;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 10px;
-}
-.home4 {
-    width: 100%;
-    display: flex;
-    height: 210px;
-    background-color: black;
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        background-color: #ececec;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;      
+    }
+    nav h2  {
+        margin: 25px 20px;
+    }
+    nav h2 a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .navigision {
+        margin: 25px 850px;
+        display: flex;
+    }
+    .navigision a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    nav .navigision a {
+        position: relative;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    nav .navigision a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        width: 0%;
+        height: 2px;
+        background-color: black;
+        transition: width 0.3s ease-in-out;
+    }
+    nav .navigision a:hover::after {
+        width: 100%;
+    }
+    .tom {
+        display: none;
+    }
+    .control {
+        display: none;
+    }
+    .home1 {
+        width: 100%;
+        color:  white;
+    }
+    .home1 img {
+        width: 100%;
+        height: 600px;
+        filter: brightness(50%);
+    }
+    .txth1 {
+        width: 100%;
+        height: 800px;  
+        position: absolute;
+        top: 200px;
+        text-align: center;
+    }
+    .subtext {
+        display: block;
+    }
+    .teks1 {
+        font-weight: 900;
+        font-size: 80px;
+    }
+    .home1 p {
+        font-size: 17px;
+        color: white;
+        position: relative;
+    }
+    .home1 a {
+        position: relative;
+        padding: 20px 40px;
+        background-color: white;
+        color: black;
+        top: 110px;
+        text-decoration: none;
+        font-weight: 700;
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+    }
+    .home1 a:hover {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .home2 {
+        width: 100%;
+        display: flex;
+        margin-top: 100px;
+        height: 500px;
+    }
+    .home2 .gam1 img {
+        width: 400px;
+        height: 500px;
+        margin: 0px 0px 0px 200px; 
+    }
+    .gam1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.4s ease;
+        animation: hm1 ease 2s infinite;
+    }
+    .gam1:hover {
+        transform: scale(1.1);
+    }
+    .tkhm2 {
+        display: block;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .home2 h2 {
+        font-weight: 900;
+        font-size: 70px;
+    }
+    .home2 p {
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 200;
+        color: #b8afaf;
+    }
+    .home2 a {
+        display: inline-block;
+        margin-top: 20px;
+        margin:50px 10px;
+        color: black;
+        border-bottom: 3px solid black;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .home3 {
+        width: 100%;
+        background: black;
+        height: 550px;
+        color: white;
+        margin-top: 100px;
+    }
+    .isi {
+        width: 95%;
+    }
+    .head {
+        margin: 0px 50px;
+        padding: 80px 50px 0px 0px;
     
-}
-.top1 {
-    display: block;
-    margin-left: 20px;
-}
-.top1 h3 {
-    font-size: 30px;
-    line-height: 200px;
-}
-.top1 p {
-    font-size: 15px;
-    color: #b8afaf;
-    position: relative;
-    bottom: 80px;
-}
-.top2 {
-    display: flex;
-    margin-left: 330px;
-    line-height: 200px;
-}
-.home4 i {
-    margin: 0px 10px;
-    font-size: 30px;
-    line-height: 200px;
-}
-.top2 p {
-    margin-left: 280px;
-    font-size: 12px;
-    color: #c0c0c0;
-    line-height: 200px;
-}
-.home4 h3 {
-    color: white;
-}
-.home4 a {
-    color: white
-}
+        display: flex;
+    }
+    .head h2 {
+    font-size: 50px;
+    }
+    .view {
+        left: 700px;
+        top: 20px;
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    hr {
+        width: 97%;
+        margin-left: 40px;
+    }
+    .body1 {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    .box {
+        width: 20%;
+        margin-left: 50px;
+        background-color: black;
+    }
+    .gam2 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        transition: 0.8s ease;
+    }
+    .gam2:hover {
+        transform: scale(1.1);
+    }
+    .box a {
+        text-decoration: none;
+        color: white;
+    }
+    .box p {
+        margin-top: 5px;
+        font-size: 13px;
+        color: #ccc;
+    }
+    .time {
+        color :#ccc;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .home4 {
+        width: 100%;
+        display: flex;
+        height: 210px;
+        background-color: black;
+        
+    }
+    .top1 {
+        display: block;
+        margin-left: 20px;
+    }
+    .top1 h3 {
+        font-size: 30px;
+        line-height: 200px;
+    }
+    .top1 p {
+        font-size: 15px;
+        color: #b8afaf;
+        position: relative;
+        bottom: 80px;
+    }
+    .top2 {
+        display: flex;
+        margin-left: 330px;
+        line-height: 200px;
+    }
+    .home4 i {
+        margin: 0px 10px;
+        font-size: 30px;
+        line-height: 200px;
+    }
+    .top2 p {
+        margin-left: 280px;
+        font-size: 12px;
+        color: #c0c0c0;
+        line-height: 200px;
+    }
+    .home4 h3 {
+        color: white;
+    }
+    .home4 a {
+        color: white
+    }
 
-/* Animasi content */
+    /* Animasi content */
 
-.txth1 {
-    animation: jurnal 2s ease both;
-}
-.body1 {
-    animation: jurnal 3s ease both;
-}
-.home2 {
-    animation: hm ease;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-.home3 {
-    animation: hm ease;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-@keyframes jurnal {
-    0% {
-        transform: translateY(200px);
-        opacity: 0;
+    .txth1 {
+        animation: jurnal 2s ease both;
     }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
+    .body1 {
+        animation: jurnal 3s ease both;
     }
-}
-@keyframes hm {
-    0% {
-        opacity: 0;
-        transform: translateY(10px);
+    .home2 {
+        animation: hm ease;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
     }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
+    .home3 {
+        animation: hm ease;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
     }
-}
-@keyframes hm1 {
-    0% {
-        transform: translateY(0px);
+    @keyframes jurnal {
+        0% {
+            transform: translateY(200px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
     }
-    50% {
-        transform: translateY(5px);
+    @keyframes hm {
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
     }
-    100% {
-        transform: translate(0px);
+    @keyframes hm1 {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(5px);
+        }
+        100% {
+            transform: translate(0px);
+        }
     }
-}
 }

@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <nav>
         <h2><a href="">MONOCHROME.</a></h2>
         <div class="navigision">
-            <a href="/home" class="home">HOME</a>
-            <a href="/about" class="about">ABOUT</a>
-            <a href="/blog" class="blogx">BLOG</a>
+            <a href="/home" class="home" id="home">HOME</a>
+            <a href="/about" class="about" id="about">ABOUT</a>
+            <a href="/blog" class="blogx" id="blog">BLOG</a>
             </div>
             <div class="tom" >
                 <i class="fas fa-bars" id="tombol-nav"></i>
@@ -24,6 +25,8 @@
         <a href="/about" class="about">ABOUT</a>
         <a href="/blog" class="blogx">BLOG</a>
     </div>
+
+    <div class="seluruh" id="isi-element">
 
     {{$slot}}
 
@@ -39,8 +42,9 @@
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-linkedin"></i>
             </a>
-            <p>© 2026 Monochrome Inc. All rights reserved.</p>
+            <p>© 2026 Monochrome Inc. <span class="home4s"> All rights reserved.</span></p>
         </div>
+    </div>
     </div>
 </body>
 </html>

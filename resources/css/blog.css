@@ -1,222 +1,242 @@
 @media only screen and (max-width:768px) {
-
-.journal {
-    width: 100%;
-    height: 250px;
-    position: relative;
-}
-.journal h1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-.journal input {
-    width: 65%;
-    margin: 10px 0px 0px 80px;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid black;
-    padding-left: 15px;
-}
-.journal i {
-    position: absolute;
-    left: 370px;
-    top: 90px;
-}
-.blog {
-    width: 100%;
-    justify-content: center;
-}
-.log1 {
-    width: 70%;
-    margin-left: 80px;
-    margin-bottom: 30px
-}
-.log2 {
-    position: relative;
-    margin-bottom: 20px;
-}
-.log2 button {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-size: 13px;
-}
-.p {
-    text-align: center;
-    font-size: 10px;
-}
-.log1 h2 {
-    font-size: 25px;
-    font-weight: bold;
-}
-.log1 h2:hover {
-    text-decoration: underline;
-}
-.log1 #tktk {
-    margin-bottom: 20px;
-}
-.read {
-    font-weight: bold;
-    border-bottom: 2px solid black;
-}
-.footer {
-    width: 100%;
-    height: 150px;
-    text-align: center;
-}
-.footer button {
-    margin-top: 50px;
-    padding: 10px 15px;
-    border: 2px solid black;
-    font-weight: bold;
-}
-.footer button:hover {
-    background-color: #000;
-    color: white;
-}
-/* ANIMASI */
-/* Animasi card */
-.log1 {
-    animation: cards2 2s ease both;
-}
-.journal {
-    animation: cards2 2s ease both;
-}
-
-@keyframes cards2 {
-    0% {
-        transform: translateY(40px);
-        opacity: 0;
+    .journal {
+        width: 100%;
+        height: 250px;
+        position: relative;
     }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
+    .journal h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 50px;
     }
-}
+    .journal input {
+        width: 65%;
+        margin: 10px 0px 0px 80px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid black;
+        padding-left: 15px;
+    }
+    .journal i {
+        position: absolute;
+        left: 370px;
+        top: 90px;
+    }
+    .blog {
+        width: 100%;
+        justify-content: center;
+    }
+    .log1 {
+        width: 70%;
+        margin-left: 80px;
+        margin-bottom: 30px
+    }
+    .log2 {
+        position: relative;
+        width: 330px;
+        height: 220px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .log2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 2s ease;
+    }
+    .log2 img:hover {
+        transform: scale(1.2);
+    }
+    .log2 button {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+    .p {
+        text-align: center;
+        font-size: 10px;
+    }
+    .log1 h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .log1 h2:hover {
+        text-decoration: underline;
+    }
+    .log1 #tktk {
+        margin-bottom: 20px;
+    }
+    .read {
+        font-weight: bold;
+        border-bottom: 2px solid black;
+    }
+    .footer {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    }
+    .footer button {
+        margin-top: 50px;
+        padding: 10px 15px;
+        border: 2px solid black;
+        font-weight: bold;
+    }
+    .footer button:hover {
+        background-color: #000;
+        color: white;
+    }
+    /* ANIMASI */
+    
+    .log1 {
+        animation: cards2 2s ease both;
+    }
+    .journal {
+        animation: cards2 2s ease both;
+    }
+    .log1 {
+        animation: cards3 2s ease both;
+    }
 
+    @keyframes cards2 {
+        0% {
+            transform: translateY(40px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes cards3 {
+        0% {
+            transform: translateX(-100px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
 }
 
 @media only screen and (min-width:992px) {
-.journal {
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    margin: 100px 0px;
-    position: relative;
-}
-.journal h1 {
-    font-size: 100px;
-    font-weight: 400;
-}
-.journal input {
-    width: 550px;
-    height: 50px;
-    border: none;
-    outline: none;
-    border-bottom: 3px solid;
-    padding-left: 20px;
-    font-size: 15px;
-}
-.journal i {
-    position: absolute;
-    right: 410px;
-    top: 160px;
-    font-size: 20px;
-    color: #797777;
-}
-.journal input:focus {
-    border-bottom: 3px solid black;
-}
-.blog {
-    width: 100%;
-    display: flex;
-    padding: 20px;
-}
-.log1 {
-    justify-content: first baseline;
-    width: 50%;
-    margin: 0px 100px;
-}
-.log2 button {
-    width: 90px;
-    position: relative;
-    bottom: 290px;
-    left: 20px;
-    text-align: center;
-    padding: 5px 5px ;
-    background: white;
-    border-radius: 10px;
-}
-.log1 .p {
-    font-size: 13px;
-    margin: 0px 0px 15px 0px 
-}
-.log1 h2 {
-    font-size: 30px;
-    margin: 0px 0px 10px 0px; 
-}
-.log1 p {
-    font-size: 20px;
-    margin: 0px 0px 50px 0px;
-}
-.log1 .read {
-    font-weight: lighter;
-    border-bottom: 2px solid;
-}
-.footer {
-    width: 100%;
-    height: 300px;
-
-}
-.footer button {
-    font-size: 15px;
-    margin: 130px 0px 0px 590px;
-    padding: 10px 20px;
-    border: 2px solid;
-    font-weight: bolder;
-}
-.log2 {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
-.log2 img {
-    object-fit: cover;
-    height: 100%;
-    transition: 1s ease;
-}
-.log2 img:hover {
-    transform: scale(1.2);
-}
-.log1 h2:hover {
-    text-decoration: underline;
-}
-.footer button:hover {
-    background-color: #000;
-    color: white;
-}
-
-/* Animasi card */
-.log1 {
-    animation: cards2 2s ease both;
-}
-.journal {
-    animation: cards2 2s ease both;
-}
-
-@keyframes cards2 {
-    0% {
-        transform: translateY(40px);
-        opacity: 0;
+    .journal {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 100px 0px;
+        position: relative;
     }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
+    .journal h1 {
+        font-size: 100px;
+        font-weight: 400;
     }
-}
+    .journal input {
+        width: 550px;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .journal i {
+        position: absolute;
+        right: 410px;
+        top: 160px;
+        font-size: 20px;
+        color: #797777;
+    }
+    .journal input:focus {
+        border-bottom: 3px solid black;
+    }
+    .blog {
+        width: 100%;
+        display: flex;
+        padding: 20px;
+    }
+    .log1 {
+        justify-content: first baseline;
+        width: 50%;
+        margin: 0px 100px;
+    }
+    .log2 button {
+        width: 90px;
+        position: relative;
+        bottom: 290px;
+        left: 20px;
+        text-align: center;
+        padding: 5px 5px ;
+        background: white;
+        border-radius: 10px;
+    }
+    .log1 .p {
+        font-size: 13px;
+        margin: 0px 0px 15px 0px 
+    }
+    .log1 h2 {
+        font-size: 30px;
+        margin: 0px 0px 10px 0px; 
+    }
+    .log1 p {
+        font-size: 20px;
+        margin: 0px 0px 50px 0px;
+    }
+    .log1 .read {
+        font-weight: lighter;
+        border-bottom: 2px solid;
+    }
+    .footer {
+        width: 100%;
+        height: 300px;
+
+    }
+    .footer button {
+        font-size: 15px;
+        margin: 130px 0px 0px 590px;
+        padding: 10px 20px;
+        border: 2px solid;
+        font-weight: bolder;
+    }
+    .log2 {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .log2 img {
+        object-fit: cover;
+        height: 100%;
+        transition: 1s ease;
+    }
+    .log2 img:hover {
+        transform: scale(1.2);
+    }
+    .log1 h2:hover {
+        text-decoration: underline;
+    }
+    .footer button:hover {
+        background-color: #000;
+        color: white;
+    }
+
+    /* Animasi card */
+    .log1 {
+        animation: cards2 2s ease both;
+    }
+    .journal {
+        animation: cards2 2s ease both;
+    }
+    @keyframes cards2 {
+        0% {
+            transform: translateY(40px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
 }
