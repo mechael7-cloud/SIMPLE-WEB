@@ -383,20 +383,24 @@
         margin-top: 100px;
         height: 500px;
     }
-    .home2 .gam1 img {
-        width: 400px;
-        height: 500px;
-        margin: 0px 0px 0px 200px; 
+    .home2 .gam1  {
+        width: 650px;
+        height: 450px;
+        margin: 0px 50px 0px 0px; 
+        overflow: hidden;
     }
-    .gam1 {
+    .gam1 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         transition: 0.4s ease;
-        animation: hm1 ease 2s infinite;
+        /* animation: hm1 ease 2s infinite; */
     }
-    .gam1:hover {
+    .gam1 img:hover {
         transform: scale(1.1);
+    }
+    .spp {
+        display: block;
     }
     .tkhm2 {
         display: block;
@@ -425,7 +429,7 @@
     .home3 {
         width: 100%;
         background: black;
-        height: 550px;
+        height: 590px;
         color: white;
         margin-top: 100px;
     }
@@ -462,6 +466,7 @@
     .box {
         width: 20%;
         margin-left: 50px;
+        overflow: hidden;
         background-color: black;
     }
     .gam2 {

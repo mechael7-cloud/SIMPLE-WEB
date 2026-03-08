@@ -1,7 +1,7 @@
 <x-page>
     <div class="journal">
         <form action="">
-    <h1>JOURNAL</h1>
+    <h1>JURNAL</h1>
     <input type="text" placeholder="Search Journal">
     <button type="submit"><i class="fas fa-search"></i></button>
     </form>

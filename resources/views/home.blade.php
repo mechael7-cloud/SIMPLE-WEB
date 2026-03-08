@@ -7,17 +7,17 @@
             <span class="subtext">ESSENTIAL</span>
             </h2>
             <p>
-                Exploration of form, fuction, and the beauty of simplicity in a complex world
+               Eksplorasi bentuk, fungsi, dan keindahan kesederhanaan di dunia yang kompleks.
             </p>
             <a href="">REED JOURNAL &raquo;</a>
         </div>
     </div>
     <div class="home2">
         <div class="tkhm2">
-            <h2><span class="subtext">CURATED</span>
-                PERSPECTIVES</h2>
-            <p>We believe that less is more. Our curated  collection of articles,interviews, and visual essays explore the intersection of minimalism and modern life.</p>
-            <a href="">OUR PHILOSOPHY</a>
+            <h2><span class="subtext">PERSPEKTIF</span>
+                TERPILIH</h2>
+            <p>Kami percaya bahwa lebih sedikit itu lebih baik. Koleksi artikel,<span class="spp"> wawancara, dan esai visual pilihan kami mengeksplorasi perpaduan antara minimalisme dan kehidupan modern.</span></p>
+            <a href="">FILOSOFI KAMI</a>
         </div>
             <div class="gam1">
                 <img src="{{  asset("image/photo.2.jfif") }}" alt="">
@@ -26,8 +26,8 @@
     <div class="home3">
         <div class="isi">
             <div class="head">
-                <h2>LATEST STORIES</h2>
-                <a href="" class="view">VIEW ALL &rarr;  </a>
+                <h2>BERITA TERBARU</h2>
+                <a href="" class="view">LIHAT SEMUA &rarr;  </a>
             </div>
         <hr>
         <div class="body1">
@@ -37,8 +37,8 @@
                         <img src="{{ asset('image/photo.3.jfif') }}" alt="image placeholder">
                     </div>
                 <p class="time">DESAIN | <time datetime="2024-06-01">June 1, 2024</time></p>
-                <h3>The Art of Negative Space in Modern Web Desain</h3>
-                <p>How to use negative space effectively in modern web design to create a clean and impactful user experience.</p>
+                <h3>Seni Ruang Negatif dalam Desain Web Modern</h3>
+                <p>Bagaimana cara menggunakan ruang negatif secara efektif dalam desain web modern untuk menciptakan pengalaman pengguna yang bersih dan berdampak.</p>
                 </a>
             </div>
             <div class="box">
@@ -47,8 +47,8 @@
                         <img src="{{ asset('image/photo.3.jfif') }}" alt="image placeholder">
                     </div>
                 <p class="time">DESAIN | <time datetime="2024-06-01">June 1, 2024</time></p>
-                <h3>The Art of Negative Space in Modern Web Desain</h3>
-                <p>How to use negative space effectively in modern web design to create a clean and impactful user experience.</p>
+                <h3>Seni Ruang Negatif dalam Desain Web Modern</h3>
+                <p>Bagaimana cara menggunakan ruang negatif secara efektif dalam desain web modern untuk menciptakan pengalaman pengguna yang bersih dan berdampak.</p>
                 </a>
             </div>
             <div class="box">
@@ -57,8 +57,8 @@
                         <img src="{{ asset('image/photo.3.jfif') }}" alt="image placeholder">
                     </div>
                 <p class="time">DESAIN | <time datetime="2024-06-01">June 1, 2024</time></p>
-                <h3>The Art of Negative Space in Modern Web Desain</h3>
-                <p>How to use negative space effectively in modern web design to create a clean and impactful user experience.</p>
+                <h3>Seni Ruang Negatif dalam Desain Web Modern</h3>
+                <p>Bagaimana cara menggunakan ruang negatif secara efektif dalam desain web modern untuk menciptakan pengalaman pengguna yang bersih dan berdampak.</p>
                 </a>
             </div>
         </div>
