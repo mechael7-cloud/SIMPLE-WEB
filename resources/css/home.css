@@ -482,6 +482,13 @@
         text-decoration: none;
         color: white;
     }
+    .box h3 {
+        font-weight: bold;
+    }
+    .box h3:hover {
+        text-decoration: underline;
+        color: #ccc;
+    }
     .box p {
         margin-top: 5px;
         font-size: 13px;

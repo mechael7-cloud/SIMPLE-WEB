@@ -12,7 +12,7 @@
     <nav>
         <h2><a href="">MONOCHROME.</a></h2>
         <div class="navigision">
-            <a href="/home" class="home" id="home">HOME</a>
+            <a href="/" class="home" id="home">HOME</a>
             <a href="/about" class="about" id="about">ABOUT</a>
             <a href="/blog" class="blogx" id="blog">BLOG</a>
             </div>
@@ -21,7 +21,7 @@
             </div>
     </nav>
     <div class="control" id="menu-nav"> 
-        <a href="/home" class="home">HOME</a>
+        <a href="/" class="home">HOME</a>
         <a href="/about" class="about">ABOUT</a>
         <a href="/blog" class="blogx">BLOG</a>
     </div>

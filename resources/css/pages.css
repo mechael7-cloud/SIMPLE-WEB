@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) {
+    .news {
+        width: 100%;
+        padding: 20px;
+    }
+    .news1 {
+        box-shadow: 1px 1px 3px 3px;
+        padding: 10px;
+    }
+    .th1 {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #9a9a99;
+        width: 130px;
+        padding: 5px 10px;
+    }
+    .th2 {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+    .news2 {
+        width: 425px;
+        height: 280px;
+        overflow: hidden;
+    }
+    .news2 img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        
+        transition: 0.3s ease-in-out;
+    }
+    .news2 img:hover {
+        transform: scale(1.2);
+    }
+    .th3 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .km {
+        margin-top: 20px;
+        padding: 10px 0px;
+    }
+    .km a {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .news {
+        width: 100%;
+        padding: 50px;
+    }
+    .news1 {
+        box-shadow: 1px 1px 3px 3px;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .th1 {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #9a9a99;
+        width: 130px;
+        margin-left: 555px;
+        padding: 5px 10px;
+    }
+    .th2 {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+    .news2 {
+        width: 425px;
+        height: 280px;
+        margin-left: 410px;
+        overflow: hidden;
+    }
+    .news2 img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        transition: 0.3s ease-in-out;
+    }
+    .news2 img:hover {
+        transform: scale(1.2);
+    }
+    .th3 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .km {
+        margin-top: 20px;
+        padding: 10px 0px;
+    }
+    .km a {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}

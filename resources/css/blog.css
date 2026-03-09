@@ -30,12 +30,15 @@
     .log1 {
         width: 70%;
         margin-left: 80px;
-        margin-bottom: 30px
+        margin-bottom: 30px;
+        box-shadow: 1px 1px 2px 2px;
+        padding: 20px;
+        border-radius: 10px
     }
     .log2 {
         position: relative;
-        width: 330px;
-        height: 220px;
+        width: 300px;
+        height: 200px;
         margin-bottom: 20px;
         overflow: hidden;
     }
@@ -155,13 +158,17 @@
     }
     .blog {
         width: 100%;
-        display: flex;
+        display: block;
         padding: 20px;
+        justify-content: space-around;
     }
     .log1 {
         justify-content: first baseline;
         width: 50%;
         margin: 0px 100px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 3px;
     }
     .log2 button {
         width: 90px;
@@ -180,6 +187,7 @@
     .log1 h2 {
         font-size: 30px;
         margin: 0px 0px 10px 0px; 
+        font-weight: bold;
     }
     .log1 p {
         font-size: 20px;
@@ -188,6 +196,7 @@
     .log1 .read {
         font-weight: lighter;
         border-bottom: 2px solid;
+        font-weight: bold;
     }
     .footer {
         width: 100%;
