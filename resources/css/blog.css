@@ -158,14 +158,13 @@
     }
     .blog {
         width: 100%;
-        display: block;
-        padding: 20px;
-        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
     .log1 {
-        justify-content: first baseline;
-        width: 50%;
-        margin: 0px 100px;
+        width: 30%;
+        margin: 40px 20px;
         padding: 30px;
         border-radius: 10px;
         box-shadow: 1px 1px 3px 3px;
