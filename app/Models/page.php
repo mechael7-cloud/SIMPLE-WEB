@@ -3,8 +3,12 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class page extends Model
+class Page extends Model
 {
-    //
+    public function categorys () :BelongsTo
+    {
+        return $this->belongsTo(Category::class);
+    }
 }
