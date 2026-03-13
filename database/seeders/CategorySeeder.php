@@ -14,7 +14,19 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            
+            'name' => 'DESAIN GRAFIS',
+        ]);
+        Category::create([
+            'name' => 'UI / UX DESIGN',
+        ]);
+        Category::create([
+            'name' => 'BRANDING DESIGN',
+        ]);
+        Category::create([
+            'name' => 'DESAIN INTERIOR',
+        ]);
+        Category::create([
+            'name' => 'DESAIN DIGITAL & KONTEN',
         ]);
     }
 }

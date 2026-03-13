@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Page extends Model
 {
+    protected $table = 'pages';
+    protected $fillable = ['judul', 'isi', 'category_id'];
     public function categorys () :BelongsTo
     {
         return $this->belongsTo(Category::class);
