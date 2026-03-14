@@ -16,7 +16,7 @@ class PageSeeder extends Seeder
     public function run(): void
     {
 
-        $categories = Category::all()->recycle();
+        $categories = Category::all();
 
         $pages = [
             [
@@ -400,7 +400,7 @@ class PageSeeder extends Seeder
 
         foreach ($pages as $page) {
             Page::create([
-                'category_id' => $categories->next()->id,
+                'category_id' => $categories->random()->id,
                 'judul' => $page['judul'],
                 'isi' => $page['isi'],
             ]);

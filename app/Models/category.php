@@ -10,6 +10,7 @@ class Category extends Model
 {
     protected $table = 'categories';
     protected $fillable = ['name'];
+    
     public function pages () :HasMany
     {
         return $this->hasMany(Page::class);
