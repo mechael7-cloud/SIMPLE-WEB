@@ -19,9 +19,17 @@ Route::get('/blog', function () {
         'pages' => Page::all(),
     ]);
 });
-Route::get('/pages', function () {
-    return view('pages', [
-        'title' => 'Home Page',
-    ]);
+// Route::get('/pages', function () {
+//     return view('pages', [
+//         'title' => 'Home Page',
+//     ]);
+// });
+
+Route::get('/pages/{id}', function ($id) 
+{
+    $page = [
+        'page' => Page::find($id),
+    ];
+    return view('pages', $page);
 });
 

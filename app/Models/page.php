@@ -13,6 +13,6 @@ class Page extends Model
     
     public function categorys () :BelongsTo
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsTo(Category::class, 'category_id');
     }
 }

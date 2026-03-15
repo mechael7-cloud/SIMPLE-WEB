@@ -18,9 +18,9 @@
                 </div>
             </form>
             <p class="p">12 Febuari 2026</p>
-            <a href="/pages"><h2>{{ $page->judul }}</h2></a>
-            <p id="tktk">{{ $page->isi }}</p>
-            <a href="/pages" class="read">READ MORE</a>
+            <a href="/pages/{{ $page['id'] }}"><h2>{{ $page->judul }}</h2></a>
+            <p id="tktk">{{ Str::limit($page['isi'],100) }}</p>
+            <a href="/pages/{{ $page['id'] }}" class="read">READ MORE</a>
         </div>
         @endforeach
 

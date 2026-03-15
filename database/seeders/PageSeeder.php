@@ -405,6 +405,5 @@ class PageSeeder extends Seeder
                 'isi' => $page['isi'],
             ]);
         }
-
     }
 }
